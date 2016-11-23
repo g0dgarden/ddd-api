@@ -31,6 +31,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
 
+## Start Server
+
+```
+go run cmd/main.go -c conf
+
+```
+
 ## HTTP Request Sample
 
 ### POST
